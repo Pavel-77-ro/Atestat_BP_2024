@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="../styling/rps-style.css" />
+  </head>
+  <body>
+    <div class="logo"><a href="../pages/index.html"><img src="../resources/logo.png" alt=""></a></div>
+    <div class="result-container" id="result-window">
+      <h1 id="result">You win!</h1>
+      <a href="../pages/index.html" class="exit">EXIT</a>
+      <a href="" class="play-again">PLAY AGAIN</a>
+    </div>
+    <div class="game">
+      <div class="big-container">
+        <div class="title-container">Rock - Paper - Scissors</div>
+        <div class="left-container">
+          <div class="player">YOU</div>
+          <div class="choice-container">
+            <button class="option" id="rock">
+              <img
+                src="../resources/rps-imgs/icon-rock.png"
+                id="rock"
+                alt="Rock"
+              />
+            </button>
+            <button class="option" id="paper">
+              <img
+                src="../resources/rps-imgs/icon-paper.png"
+                id="paper"
+                alt="Paper"
+              />
+            </button>
+            <button class="option" id="scissors">
+              <img
+                src="../resources/rps-imgs/icon-scissors.png"
+                id="scissors"
+                alt="Scissors"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="split-line"><div class="split-line-content"></div></div>
+        <div class="right-container">
+          <div class="player">COMPUTER</div>
+          <div class="choice-container">
+            <div class="option" id="computer-choice"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info-section">
+      <div class="info">
+        <h1>About</h1>
+        <p>
+          "Rock paper scissors" is a simple and interesting game. Many of us
+          used to play it in school to resolve disputes or just to spend some
+          time. But how to play if your friends are far away? For this reason
+          <a href="../pages/index.html">www.arcadio.com</a> was created. It
+          allows you to play your childhood games whenever you want, from any
+          place you want.
+        </p>
+        <h2>How to play online?</h2>
+        <p>
+          <strong>With the computer:</strong> If you want to play with your
+          computer, just select your option and wait for the machine to choose
+          it's hand. It the end, the result will be displayed on your screen and
+          will have the chance to give it another try or to go back to Arcadio.
+        </p>
+
+        <h2>What are the rules?</h2>
+        <ul>
+          <li>
+            If you choose Rock, you will win against Scissors but lose against
+            Paper.
+          </li>
+          <li>
+            If you choose Scissors, you will win against Paper but lose against
+            Rock.
+          </li>
+          <li>
+            If you choose Paper, you will win against Rock but lose against
+            Scissors.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="../scripts/rps-script.js"></script>
+  </body>
+</html>
